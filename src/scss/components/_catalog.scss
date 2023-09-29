@@ -1,4 +1,15 @@
 .catalog {
 
   margin-top: 115px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    &:not(:first-child) {
+      margin-top: 29px;
+    }
+  }
 }
